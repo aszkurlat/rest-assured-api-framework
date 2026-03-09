@@ -9,4 +9,11 @@ public class UserPayload {
                 "  \"job\": \"QA Engineer\"\n" +
                 "}";
     }
+    public static String updateUserPayload() {
+
+        return "{\n" +
+                "  \"name\": \"Anna Updated\",\n" +
+                "  \"job\": \"Senior QA\"\n" +
+                "}";
+    }
 }
