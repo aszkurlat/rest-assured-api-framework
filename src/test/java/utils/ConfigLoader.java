@@ -16,4 +16,7 @@ public class ConfigLoader {
             throw new RuntimeException("Failed to load config.properties", e);
         }
     }
+    public static String get(String key) {
+        return prop.getProperty(key);
+    }
 }
